@@ -1,5 +1,5 @@
 import os
-import pymssql
+#import pymssql
 
 from selenium import webdriver
 
@@ -42,18 +42,18 @@ class Application:
         self.story_board = StoryDashboard(self)
 
         #Create DB connection
-
-        self.db_connection = pymssql.connect(server='onedayweb-test.cpiqjs9uzigz.us-west-2.rds.amazonaws.com',
-                                             user='onedayusertest', password='1prOgrAmmIng!', database='OneDay')
-        self.db_cursor = self.db_connection.cursor()
+        #
+        # self.db_connection = pymssql.connect(server='onedayweb-test.cpiqjs9uzigz.us-west-2.rds.amazonaws.com',
+        #                                      user='onedayusertest', password='1prOgrAmmIng!', database='OneDay')
+        # self.db_cursor = self.db_connection.cursor()
 
     def destroy(self):
         #Close browser
         self.driver.close()
 
         #Close connection to the DB
-        self.db_cursor.close()
-        self.db_connection.close()
+        # self.db_cursor.close()
+        # self.db_connection.close()
 
     def get_server_url(self):
         return self.server_url

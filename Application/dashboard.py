@@ -1,14 +1,9 @@
-from selenium.webdriver.common.action_chains import ActionChains
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions
+
 
 LOGO_ID = 'logo'
 DASHBOARD_TITLE_XPATH = '//table/tbody/tr/th[1]'
 
-TOP_DASHBOARD_BTN_XPATH = '//header//div[@class="row"]//div[@class="dropdown"][1]'
-TOP_APP_BTN_XPATH = '//header//div[@class="row"]//div[@class="dropdown"][1]/div'
-TOP_APP_BTN_CONTENT_XPATH = './a'
-TOP_WEB_BTN_XPATH = '//header//div[@class="row"]//div[@class="dropdown"][3]'
+
 
 
 class Dashboard:
@@ -62,21 +57,5 @@ class Dashboard:
                 return current_company
         return None
 
-    def go_to_dashboard(self):
-        return self.app.driver.find_element_by_xpath(TOP_DASHBOARD_BTN_XPATH).click()
 
-    def go_to_web(self):
-        return self.app.driver.find_element_by_xpath(TOP_WEB_BTN_XPATH).click()
-
-    def go_to_app_item(self, item_name):
-        app_btn = self.app.driver.find_elements_by_xpath(TOP_APP_BTN_XPATH)
-        ActionChains(self.app.driver).move_to_element(app_btn).perform()
-        app_btn_content = WebDriverWait(self.app.driver, 5).until(expected_conditions.visibility_of
-                                                               (app_btn.find_elements_by_xpath(TOP_APP_BTN_CONTENT_XPATH)))
-        while app_btn_content:
-            cur_el = app_btn_content.pop()
-            if cur_el.text == item_name:
-                item = cur_el
-                break
-        item.click()
 
