@@ -1,13 +1,12 @@
-from OneDay.Company.company_dashboard import CompanyDashboard
+from Application.app_dashboard import AppDashboard
 
 STORY_BOARD_PATH = '/Admin/Story'
 STORY_NAME_IN_APP_DROPBOX = 'Stories'
 
 
-class StoryDashboard(CompanyDashboard):
+class StoryDashboard(AppDashboard):
     def __init__(self, app):
         super().__init__(app)
-        self.page_header_xpath = '//div/h2[@class="admin-header"]'
 
     def get_story_board_path(self):
         return STORY_BOARD_PATH

@@ -1,14 +1,14 @@
 
-
 LOGO_ID = 'logo'
-DASHBOARD_TITLE_XPATH = '//table/tbody/tr/th[1]'
+TOP_DASHBOARD_BTN_XPATH = '//header//div[@class="row"]//div[@class="dropdown"][1]'
 
-
+TOP_WEB_BTN_XPATH = '//header//div[@class="row"]//div[@class="dropdown"][3]'
 
 
 class Dashboard:
     def __init__(self, app):
         self.app = app
+        self.dashboard_title_xpath = '//table/tbody/tr/th[1]'
         self.page_header_xpath = '//div/h2[@class="admin-header color primary"]'
         #self.dashboard_items_list_xpath = '//tr/td/p/a'
         self.dashboard_items_list_xpath = '//tr[@class ="ng-scope"]'
@@ -32,7 +32,7 @@ class Dashboard:
         return self.app.driver.find_element_by_xpath(self.page_header_xpath).text
 
     def get_dashboard_title(self):
-        return self.app.driver.find_element_by_xpath(DASHBOARD_TITLE_XPATH).text
+        return self.app.driver.find_element_by_xpath(self.dashboard_title_xpath).text
 
     def get_dashboard_items_list(self):
         return self.app.driver.find_elements_by_xpath(self.dashboard_items_list_xpath)
@@ -57,5 +57,10 @@ class Dashboard:
                 return current_company
         return None
 
+    def go_to_dashboard(self):
+        return self.app.driver.find_element_by_xpath(TOP_DASHBOARD_BTN_XPATH).click()
+
+    def go_to_web(self):
+        return self.app.driver.find_element_by_xpath(TOP_WEB_BTN_XPATH).click()
 
 

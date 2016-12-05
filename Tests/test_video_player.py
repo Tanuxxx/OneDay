@@ -1,28 +1,6 @@
-import pytest
-import time
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions
-from OneDay.Application.application import Application
-
-fixture = None
-
-
-@pytest.fixture
-def app():
-    """Create fixture"""
-    global fixture
-    fixture = Application('test')
-    return fixture
-
-
-@pytest.fixture(scope="session", autouse=True)
-def close(request):
-    """Destroy fixture"""
-    def fin():
-        fixture.destroy()
-    request.addfinalizer(fin)
-    return fixture
 
 
 def test_video_player_from_community(app):

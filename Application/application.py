@@ -10,6 +10,10 @@ from OneDay.Company.company_dashboard import CompanyDashboard
 from OneDay.Login.session import Session
 from OneDay.MyStory.my_story_dashboard import MyStoryDashboard
 from OneDay.Story.story_dashboard import StoryDashboard
+from Moment.moment_dashboard import MomentDashboard
+from Music.music_dashboard import MusicDashboard
+from Theme.theme_dashboard import ThemeDashboard
+from Category.category_dashboard import CategoryDashboard
 
 TEST_SERVER_URL = 'st.oneday.com'
 PROD_SERVER_URL = 'oneday.com'
@@ -40,6 +44,10 @@ class Application:
         self.resident_landing = ResidentLanding(self)
         self.video_player = VideoPlayer(self)
         self.story_board = StoryDashboard(self)
+        self.moment_board = MomentDashboard(self)
+        self.music_board = MusicDashboard(self)
+        self.theme_board = ThemeDashboard(self)
+        self.category_board = CategoryDashboard(self)
 
         #Create DB connection
         #
