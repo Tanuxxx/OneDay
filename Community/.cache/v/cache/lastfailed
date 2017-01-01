@@ -1,0 +1,4 @@
+{
+  "test_video_player.py::test_video_player_from_community": true,
+  "test_video_player.py::test_video_player_from_community_landing": true
+}
