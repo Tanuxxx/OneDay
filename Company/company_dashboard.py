@@ -13,7 +13,7 @@ class CompanyDashboard(Dashboard):
         super().__init__(app)
         self.admin_email = ADMIN_EMAIL
         self.admin_password = ADMIN_PASSWORD
-        self.page_header_xpath = '//div/h2[@class="admin-header ng-binding"]'
+        self.page_header_xpath = '(//div/h2[@class="admin-header ng-binding"])[2]'
         #self.dashboard_items_list_xpath = '//tr/td//p/a'
         self.dashboard_items_list_name_xpath = './td//p/a'
         self.dashboard_items_list_xpath = '//tr[@class="ng-scope"]'

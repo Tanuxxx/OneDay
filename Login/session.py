@@ -41,7 +41,7 @@ class Session:
         logout_users_cand = self.app.driver.find_elements_by_xpath(USER_EMAIL_XPATH)
         while logout_users_cand:
             cur_el = logout_users_cand.pop()
-            if cur_el.text == email:
+            if cur_el.text.lower() == email.lower():
                 logout_user = cur_el
                 break
         logout_user.click()

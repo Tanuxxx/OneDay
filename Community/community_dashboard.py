@@ -11,6 +11,7 @@ class CommunityDashboard(CompanyDashboard):
         super().__init__(app)
         self.admin_email = ADMIN_EMAIL
         self.admin_password = ADMIN_PASSWORD
+        self.page_header_xpath = '//div/h2[@class="admin-header ng-binding"]'
 
     def get_community_board_path(self):
         return COMMUNITY_BOARD_PATH
