@@ -33,28 +33,8 @@
       <file leaf-file-name="test_login.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tests/test_login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-707">
-              <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="session.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Login/session.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="43" column="49" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="company_dashboard.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Company/company_dashboard.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+            <state relative-caret-position="2992">
+              <caret line="136" column="12" selection-start-line="136" selection-start-column="12" selection-end-line="136" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -63,8 +43,18 @@
       <file leaf-file-name="app_dashboard.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Application/app_dashboard.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            <state relative-caret-position="0">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="conftest.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tests/conftest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -73,8 +63,8 @@
       <file leaf-file-name="community_dashboard.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Community/community_dashboard.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="76" selection-start-line="13" selection-start-column="76" selection-end-line="13" selection-end-column="76" />
+            <state relative-caret-position="22">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -93,8 +83,8 @@
       <file leaf-file-name="test_companies_communities.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tests/test_companies_communities.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+            <state relative-caret-position="543">
+              <caret line="46" column="39" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -103,11 +93,21 @@
       <file leaf-file-name="application.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Application/application.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="30" column="96" selection-start-line="30" selection-start-column="96" selection-end-line="30" selection-end-column="96" />
+            <state relative-caret-position="0">
+              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -163,6 +163,7 @@
         <option value="$PROJECT_DIR$/Community/community_dashboard.py" />
         <option value="$PROJECT_DIR$/Login/session.py" />
         <option value="$PROJECT_DIR$/Company/company_dashboard.py" />
+        <option value="$PROJECT_DIR$/Tests/conftest.py" />
         <option value="$PROJECT_DIR$/Tests/test_companies_communities.py" />
         <option value="$PROJECT_DIR$/Tests/test_login.py" />
       </list>
@@ -392,7 +393,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Application" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
@@ -405,35 +406,15 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tsaytieva\Documents\Python\OneDay\Application" />
+      <recent name="C:\Users\tsaytieva\Documents\Python\OneDay\Tests" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\tsaytieva\Documents\Python\OneDayCMS\Tools" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.py.test in test_login_as_community_admin">
-    <configuration default="false" name="py.test in test_theme_dashboard" type="tests" factoryName="py.test" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="OneDayCMS" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="testToRun" value="$PROJECT_DIR$/Tests/test_theme.py" />
-      <option name="keywords" value="test_theme_dashboard" />
-      <option name="params" value="" />
-      <option name="USE_PARAM" value="false" />
-      <option name="USE_KEYWORD" value="true" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python tests.py.test in test_login_as_oneday_admin">
     <configuration default="false" name="py.test in test_category_dashboard" type="tests" factoryName="py.test" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -528,6 +509,30 @@
       <option name="params" value="" />
       <option name="USE_PARAM" value="false" />
       <option name="USE_KEYWORD" value="true" />
+      <method />
+    </configuration>
+    <configuration default="false" name="py.test in test_companies_communities.py" type="tests" factoryName="py.test" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="OneDayCMS" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="$PROJECT_DIR$/Tests/test_companies_communities.py" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -665,19 +670,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test_theme_dashboard" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_category_dashboard" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_login.py" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_login_as_community_admin" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_login_as_oneday_admin" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test_category_dashboard" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_login.py" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_login_as_community_admin" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_login_as_oneday_admin" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_companies_communities.py" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test_login_as_community_admin" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_login_as_oneday_admin" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_login.py" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_category_dashboard" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_theme_dashboard" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test_login_as_oneday_admin" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_companies_communities.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_login_as_community_admin" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_login.py" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_category_dashboard" />
       </list>
     </recent_temporary>
   </component>
@@ -698,47 +703,47 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_test_login_as_community_admin - 2017.02.24 at 18h 41m 24s.xml">
-      <configuration name="py.test in test_login_as_community_admin" configurationId="tests" />
+    <history-entry file="py_test_in_test_companies_communities_py - 2017.03.01 at 15h 45m 00s.xml">
+      <configuration name="py.test in test_companies_communities.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_login_as_oneday_admin - 2017.02.24 at 14h 54m 03s.xml">
+    <history-entry file="py_test_in_test_login_as_oneday_admin - 2017.03.01 at 14h 31m 39s.xml">
       <configuration name="py.test in test_login_as_oneday_admin" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_login_as_oneday_admin - 2017.02.24 at 16h 40m 36s.xml">
+    <history-entry file="py_test_in_test_login_as_oneday_admin - 2017.03.01 at 14h 33m 06s.xml">
       <configuration name="py.test in test_login_as_oneday_admin" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_login_as_oneday_admin - 2017.02.24 at 16h 51m 44s.xml">
+    <history-entry file="py_test_in_test_login_as_oneday_admin - 2017.03.01 at 14h 43m 28s.xml">
       <configuration name="py.test in test_login_as_oneday_admin" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_login_as_oneday_admin - 2017.02.24 at 16h 53m 48s.xml">
+    <history-entry file="py_test_in_test_login_as_oneday_admin - 2017.03.01 at 15h 23m 56s.xml">
       <configuration name="py.test in test_login_as_oneday_admin" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_login_as_oneday_admin - 2017.02.24 at 16h 55m 11s.xml">
+    <history-entry file="py_test_in_test_login_as_oneday_admin - 2017.03.01 at 15h 41m 10s.xml">
       <configuration name="py.test in test_login_as_oneday_admin" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_login_as_oneday_admin - 2017.02.24 at 16h 57m 03s.xml">
+    <history-entry file="py_test_in_test_login_as_oneday_admin - 2017.03.01 at 15h 42m 20s.xml">
       <configuration name="py.test in test_login_as_oneday_admin" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_login_as_oneday_admin - 2017.02.24 at 17h 14m 20s.xml">
+    <history-entry file="py_test_in_test_login_as_oneday_admin - 2017.03.01 at 15h 46m 35s.xml">
       <configuration name="py.test in test_login_as_oneday_admin" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_login_as_oneday_admin - 2017.02.24 at 17h 20m 56s.xml">
+    <history-entry file="py_test_in_test_login_as_oneday_admin - 2017.03.01 at 15h 47m 58s.xml">
       <configuration name="py.test in test_login_as_oneday_admin" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_login_as_oneday_admin - 2017.02.24 at 17h 37m 54s.xml">
+    <history-entry file="py_test_in_test_login_as_oneday_admin - 2017.03.01 at 15h 49m 19s.xml">
       <configuration name="py.test in test_login_as_oneday_admin" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2409" y="-9" width="2418" height="1318" extended-state="0" />
+    <frame x="-2409" y="-9" width="2418" height="1318" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15916666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3259949" sideWeight="0.35041666" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3259949" sideWeight="0.3525" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3259949" sideWeight="0.64958334" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3259949" sideWeight="0.6475" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -775,7 +780,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Login/companies.py" />
     <entry file="file://$PROJECT_DIR$/Login/test_login.py" />
     <entry file="file://$PROJECT_DIR$/Login/session.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -860,13 +864,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tests/test_category.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -885,6 +882,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -892,6 +890,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="28" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -899,6 +898,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -927,7 +927,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="20" column="91" selection-start-line="20" selection-start-column="91" selection-end-line="20" selection-end-column="91" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -935,15 +934,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="455">
           <caret line="43" column="49" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/dashboard.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -963,21 +953,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test_companies_communities.py">
+    <entry file="file://$PROJECT_DIR$/Tests/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
-          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/application.py">
+    <entry file="file://$PROJECT_DIR$/Application/dashboard.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="30" column="96" selection-start-line="30" selection-start-column="96" selection-end-line="30" selection-end-column="96" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="264">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Community/community_dashboard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -989,26 +985,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Community/community_dashboard.py">
+    <entry file="file://$PROJECT_DIR$/Application/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="76" selection-start-line="13" selection-start-column="76" selection-end-line="13" selection-end-column="76" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/application.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/test_companies_communities.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="46" column="39" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/app_dashboard.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        <state relative-caret-position="0">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/test_login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-707">
-          <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
+        <state relative-caret-position="2992">
+          <caret line="136" column="12" selection-start-line="136" selection-start-column="12" selection-end-line="136" selection-end-column="12" />
           <folding />
         </state>
       </provider>

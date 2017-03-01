@@ -1,11 +1,11 @@
 import pytest
-import time
 
-from OneDay.Application.application import Application
+from Application.application import Application
+
 
 fixture = None
 
-@pytest.fixture
+@pytest.fixture(scope="module")
 def app():
     """Create fixture"""
     global fixture

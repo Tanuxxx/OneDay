@@ -1,1 +1,3 @@
-{}
+{
+  "test_companies_communities.py::test_login_as_oneday_admin": true
+}
